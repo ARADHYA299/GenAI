@@ -19,7 +19,7 @@ from langchain_groq import ChatGroq
 llm = ChatGroq(
     temperature = 0,
     model = "llama-3.1-8b-instant", # Updated model name
-    groq_api_key = "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",
+    groq_api_key = "",
     max_tokens = None,
     timeout = None,
     max_retries=2
